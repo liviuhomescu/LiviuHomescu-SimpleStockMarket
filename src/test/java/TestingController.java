@@ -26,7 +26,6 @@ public class TestingController {
     }
     @RequestMapping(method= RequestMethod.GET, value="addStock.htm/stock={stock}}&type={type}&lastDividend={lastDividend}&fixedDividend={fixedDividend}&parValue={parValue}")
     public @ResponseBody String addStock(@PathVariable String stock, @PathVariable String type, @PathVariable String lastDividend, @PathVariable String fixedDividend, @PathVariable String parValue, Model model){
-        //validate stock
         stockMarketUtils.addStock(new Stock(stock, type, Integer.valueOf(lastDividend), fixedDividend, Integer.valueOf(parValue)));
         return null;
     }

@@ -6,7 +6,7 @@ Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
 Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
-Refreshing Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
+Refreshing Root WebApplicationContext: startup date [Sun Nov 15 15:18:30 EET 2015]; root of context hierarchy
 Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
@@ -28,17 +28,7 @@ Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying or
 Looking up JNDI object with name [spring.profiles.active]
 JNDI lookup for name [spring.profiles.active] threw NamingException with message: null. Returning null.
 Searching for key 'spring.profiles.active' in [systemProperties]
-Found key 'spring.profiles.active' in [systemProperties] with type [String] and value 'production,test'
-Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
-Adding [systemProperties] PropertySource with lowest search precedence
-Adding [systemEnvironment] PropertySource with lowest search precedence
-Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
-Looking for matching resources in directory tree [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\test]
-Searching directory [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\test] for files matching pattern [D:/Proiecte/LiviuHomescu-SimpleStockMarket/out/production/LiviuHomescu-SimpleStockMarket/test/**/*.class]
-Searching directory [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\test\java] for files matching pattern [D:/Proiecte/LiviuHomescu-SimpleStockMarket/out/production/LiviuHomescu-SimpleStockMarket/test/**/*.class]
-Resolved location pattern [classpath*:test/**/*.class] to resources [file [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\test\java\TestingController.class]]
-Identified candidate component class: file [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\test\java\TestingController.class]
+Found key 'spring.profiles.active' in [systemProperties] with type [String] and value 'production'
 Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
 Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
 Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
@@ -46,8 +36,7 @@ Found XML schema [http://www.springframework.org/schema/context/spring-context-4
 Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
 Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-4.0.xsd
 Loading bean definitions
-Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
-Overriding bean definition for bean 'mvcUriComponentsContributor': replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
 Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
@@ -64,20 +53,20 @@ Resolved location pattern [classpath*:main/**/*.class] to resources [file [D:\Pr
 Identified candidate component class: file [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\main\java\configuration\ApplicationContext.class]
 Identified candidate component class: file [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\main\java\controllers\DividendController.class]
 Identified candidate component class: file [D:\Proiecte\LiviuHomescu-SimpleStockMarket\out\production\LiviuHomescu-SimpleStockMarket\main\java\TradeController.class]
-Loaded 27 bean definitions from location pattern [/WEB-INF/applicationContext*.xml]
-Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@1b765a2c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,testingController,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1,org.springframework.format.support.FormattingConversionServiceFactoryBean#1,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1,applicationContext,dividendController,tradeController]; root of factory hierarchy
-Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@23bff419]
-Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@1d2bd371]
-Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@65fe9e33]
-Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@68ead359]
+Loaded 19 bean definitions from location pattern [/WEB-INF/applicationContext*.xml]
+Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@62e20a76: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,applicationContext,dividendController,tradeController]; root of factory hierarchy
+Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@1b765a2c]
+Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@72c28d64]
+Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@2c5529ab]
+Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@51972dc7]
 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
 Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 Registering bean definition for @Bean method main.java.configuration.ApplicationContext.dividendCalculatorFactory()
 Registering bean definition for @Bean method main.java.configuration.ApplicationContext.stockMarketUtils()
-Successfully enhanced main.java.configuration.ApplicationContext; enhanced class name is: main.java.configuration.ApplicationContext$$EnhancerBySpringCGLIB$$c902d1bd
-Replacing bean definition 'applicationContext' existing class name 'main.java.configuration.ApplicationContext' with enhanced class name 'main.java.configuration.ApplicationContext$$EnhancerBySpringCGLIB$$c902d1bd'
+Successfully enhanced main.java.configuration.ApplicationContext; enhanced class name is: main.java.configuration.ApplicationContext$$EnhancerBySpringCGLIB$$52f36c3c
+Replacing bean definition 'applicationContext' existing class name 'main.java.configuration.ApplicationContext' with enhanced class name 'main.java.configuration.ApplicationContext$$EnhancerBySpringCGLIB$$52f36c3c'
 Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
 Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
 Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
@@ -98,10 +87,10 @@ Creating shared instance of singleton bean 'org.springframework.context.annotati
 Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
 Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
 Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
-Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@16f7b4af]
-Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@42f3156d]
-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@f27ea3]
-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b765a2c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,testingController,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1,org.springframework.format.support.FormattingConversionServiceFactoryBean#1,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1,applicationContext,dividendController,tradeController,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,dividendCalculatorFactory,stockMarketUtils]; root of factory hierarchy
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@293d0107]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@83298d7]
+Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5536379e]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@62e20a76: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,applicationContext,dividendController,tradeController,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,dividendCalculatorFactory,stockMarketUtils]; root of factory hierarchy
 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
 Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
@@ -117,100 +106,87 @@ Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.Requ
 Returning cached instance of singleton bean 'mvcContentNegotiationManager'
 Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
 Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
-Creating instance of bean '(inner bean)#33352f32'
+Creating instance of bean '(inner bean)#6fa590ba'
 Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
 Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
-Finished creating instance of bean '(inner bean)#33352f32'
+Finished creating instance of bean '(inner bean)#6fa590ba'
 No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
 Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
 Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
-Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
-Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
-Creating instance of bean '(inner bean)#1b39fd82'
-Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
-Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
-Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1' to allow for resolving potential circular references
-Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
-Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
-Finished creating instance of bean '(inner bean)#1b39fd82'
-Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#1' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
 Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
-Looking for request mappings in application context: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
-Mapped "{[/addStock.htm/stock={stock}}&type={type}&lastDividend={lastDividend}&fixedDividend={fixedDividend}&parValue={parValue}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String test.java.TestingController.addStock(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
-Mapped "{[/functionalTests.htm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String test.java.TestingController.functionalTests(org.springframework.ui.Model)
+Looking for request mappings in application context: Root WebApplicationContext: startup date [Sun Nov 15 15:18:30 EET 2015]; root of context hierarchy
 Mapped "{[/getDividend.htm/stock={stock}&price={price}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.controllers.DividendController.getDividend(java.lang.String,java.lang.String,org.springframework.ui.Model)
 Mapped "{[/getPERatio.htm/stock={stock}&price={price}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.controllers.DividendController.getPERatio(java.lang.String,java.lang.String,org.springframework.ui.Model)
 Mapped "{[/volumeWeightedStockPrice.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.volumeWeightedStockPrice(org.springframework.ui.Model)
-Mapped "{[/trades.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.trades(org.springframework.ui.Model)
-Mapped "{[/addTrade.htm/executionTimestamp={executionTimestamp}&numberOfShares={numberOfShares}&buyOrSell={buyOrSell}&tradePrice={tradePrice}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.addTrade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
 Mapped "{[/calculateGeometricMeanOfAllIndices.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.calculateGeometricMeanOfAllIndices(org.springframework.ui.Model)
+Mapped "{[/addTrade.htm/executionTimestamp={executionTimestamp}&numberOfShares={numberOfShares}&buyOrSell={buyOrSell}&tradePrice={tradePrice}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.addTrade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
+Mapped "{[/trades.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.trades(org.springframework.ui.Model)
 Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
 Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
 Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
 Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
 Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#2d195ee4'
+Creating instance of bean '(inner bean)#50825a02'
 Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+Finished creating instance of bean '(inner bean)#50825a02'
+Creating instance of bean '(inner bean)#1ded7b14'
+Finished creating instance of bean '(inner bean)#1ded7b14'
+Creating instance of bean '(inner bean)#79767781'
+Finished creating instance of bean '(inner bean)#79767781'
+Creating instance of bean '(inner bean)#245a060f'
+Finished creating instance of bean '(inner bean)#245a060f'
+Creating instance of bean '(inner bean)#2d195ee4'
 Finished creating instance of bean '(inner bean)#2d195ee4'
-Creating instance of bean '(inner bean)#551de37d'
-Finished creating instance of bean '(inner bean)#551de37d'
-Creating instance of bean '(inner bean)#3028e50e'
-Finished creating instance of bean '(inner bean)#3028e50e'
-Creating instance of bean '(inner bean)#bb095'
-Finished creating instance of bean '(inner bean)#bb095'
-Creating instance of bean '(inner bean)#4bdc8b5d'
-Finished creating instance of bean '(inner bean)#4bdc8b5d'
-Creating instance of bean '(inner bean)#726a17c4'
-Finished creating instance of bean '(inner bean)#726a17c4'
-Creating instance of bean '(inner bean)#160396db'
-Finished creating instance of bean '(inner bean)#160396db'
-Creating instance of bean '(inner bean)#53093491'
-Creating instance of bean '(inner bean)#6dd93a21'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#6dd93a21'
-Finished creating instance of bean '(inner bean)#6dd93a21'
-Finished creating instance of bean '(inner bean)#53093491'
-Creating instance of bean '(inner bean)#7923f5b3'
-Finished creating instance of bean '(inner bean)#7923f5b3'
+Creating instance of bean '(inner bean)#29314cc9'
+Finished creating instance of bean '(inner bean)#29314cc9'
+Creating instance of bean '(inner bean)#63e5e5b4'
+Finished creating instance of bean '(inner bean)#63e5e5b4'
+Creating instance of bean '(inner bean)#56de6d6b'
+Creating instance of bean '(inner bean)#1473b8c0'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#1473b8c0'
+Finished creating instance of bean '(inner bean)#1473b8c0'
+Finished creating instance of bean '(inner bean)#56de6d6b'
+Creating instance of bean '(inner bean)#7a18e8d'
+Finished creating instance of bean '(inner bean)#7a18e8d'
 Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
-Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
+Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sun Nov 15 15:18:30 EET 2015]; root of context hierarchy
 Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
 Creating shared instance of singleton bean 'mvcUriComponentsContributor'
 Creating instance of bean 'mvcUriComponentsContributor'
 Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
-Creating instance of bean '(inner bean)#4cafa9aa'
+Creating instance of bean '(inner bean)#76075d65'
 Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#989da1'
-Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
-Finished creating instance of bean '(inner bean)#989da1'
-Creating instance of bean '(inner bean)#2032e725'
-Finished creating instance of bean '(inner bean)#2032e725'
-Creating instance of bean '(inner bean)#441cc260'
-Finished creating instance of bean '(inner bean)#441cc260'
-Creating instance of bean '(inner bean)#66e889df'
-Finished creating instance of bean '(inner bean)#66e889df'
-Creating instance of bean '(inner bean)#773c0293'
-Finished creating instance of bean '(inner bean)#773c0293'
-Creating instance of bean '(inner bean)#3a022576'
-Finished creating instance of bean '(inner bean)#3a022576'
-Creating instance of bean '(inner bean)#31ddd4a4'
-Finished creating instance of bean '(inner bean)#31ddd4a4'
-Creating instance of bean '(inner bean)#22d1886d'
-Creating instance of bean '(inner bean)#1cbb3d3b'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#1cbb3d3b'
-Finished creating instance of bean '(inner bean)#1cbb3d3b'
-Finished creating instance of bean '(inner bean)#22d1886d'
-Creating instance of bean '(inner bean)#393881f0'
-Finished creating instance of bean '(inner bean)#393881f0'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#4cafa9aa'
-Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
+Creating instance of bean '(inner bean)#50825a02#1'
+Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+Finished creating instance of bean '(inner bean)#50825a02#1'
+Creating instance of bean '(inner bean)#1ded7b14#1'
+Finished creating instance of bean '(inner bean)#1ded7b14#1'
+Creating instance of bean '(inner bean)#79767781#1'
+Finished creating instance of bean '(inner bean)#79767781#1'
+Creating instance of bean '(inner bean)#245a060f#1'
+Finished creating instance of bean '(inner bean)#245a060f#1'
+Creating instance of bean '(inner bean)#2d195ee4#1'
+Finished creating instance of bean '(inner bean)#2d195ee4#1'
+Creating instance of bean '(inner bean)#29314cc9#1'
+Finished creating instance of bean '(inner bean)#29314cc9#1'
+Creating instance of bean '(inner bean)#63e5e5b4#1'
+Finished creating instance of bean '(inner bean)#63e5e5b4#1'
+Creating instance of bean '(inner bean)#56de6d6b#1'
+Creating instance of bean '(inner bean)#1473b8c0#1'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#1473b8c0#1'
+Finished creating instance of bean '(inner bean)#1473b8c0#1'
+Finished creating instance of bean '(inner bean)#56de6d6b#1'
+Creating instance of bean '(inner bean)#7a18e8d#1'
+Finished creating instance of bean '(inner bean)#7a18e8d#1'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#76075d65'
+Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sun Nov 15 15:18:30 EET 2015]; root of context hierarchy
 Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
-Finished creating instance of bean '(inner bean)#4cafa9aa'
-Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
+Finished creating instance of bean '(inner bean)#76075d65'
+Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
 Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
 Finished creating instance of bean 'mvcUriComponentsContributor'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
@@ -218,27 +194,27 @@ Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.
 Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
 Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
 Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#551de37d#1'
-Finished creating instance of bean '(inner bean)#551de37d#1'
-Creating instance of bean '(inner bean)#3028e50e#1'
-Finished creating instance of bean '(inner bean)#3028e50e#1'
-Creating instance of bean '(inner bean)#bb095#1'
-Finished creating instance of bean '(inner bean)#bb095#1'
-Creating instance of bean '(inner bean)#4bdc8b5d#1'
-Finished creating instance of bean '(inner bean)#4bdc8b5d#1'
-Creating instance of bean '(inner bean)#726a17c4#1'
-Finished creating instance of bean '(inner bean)#726a17c4#1'
-Creating instance of bean '(inner bean)#160396db#1'
-Finished creating instance of bean '(inner bean)#160396db#1'
-Creating instance of bean '(inner bean)#53093491#1'
-Creating instance of bean '(inner bean)#6dd93a21#1'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#6dd93a21#1'
-Finished creating instance of bean '(inner bean)#6dd93a21#1'
-Finished creating instance of bean '(inner bean)#53093491#1'
-Creating instance of bean '(inner bean)#293cde83'
-Finished creating instance of bean '(inner bean)#293cde83'
+Creating instance of bean '(inner bean)#1ded7b14#2'
+Finished creating instance of bean '(inner bean)#1ded7b14#2'
+Creating instance of bean '(inner bean)#79767781#2'
+Finished creating instance of bean '(inner bean)#79767781#2'
+Creating instance of bean '(inner bean)#245a060f#2'
+Finished creating instance of bean '(inner bean)#245a060f#2'
+Creating instance of bean '(inner bean)#2d195ee4#2'
+Finished creating instance of bean '(inner bean)#2d195ee4#2'
+Creating instance of bean '(inner bean)#29314cc9#2'
+Finished creating instance of bean '(inner bean)#29314cc9#2'
+Creating instance of bean '(inner bean)#63e5e5b4#2'
+Finished creating instance of bean '(inner bean)#63e5e5b4#2'
+Creating instance of bean '(inner bean)#56de6d6b#2'
+Creating instance of bean '(inner bean)#1473b8c0#2'
+Invoking afterPropertiesSet() on bean with name '(inner bean)#1473b8c0#2'
+Finished creating instance of bean '(inner bean)#1473b8c0#2'
+Finished creating instance of bean '(inner bean)#56de6d6b#2'
+Creating instance of bean '(inner bean)#5b22b970'
+Finished creating instance of bean '(inner bean)#5b22b970'
 Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
-Looking for exception mappings: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
+Looking for exception mappings: Root WebApplicationContext: startup date [Sun Nov 15 15:18:30 EET 2015]; root of context hierarchy
 Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
 Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
 Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
@@ -252,8 +228,7 @@ Creating shared instance of singleton bean 'org.springframework.web.servlet.hand
 Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
 Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
 Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
-Looking for URL mappings in application context: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
+Looking for URL mappings in application context: Root WebApplicationContext: startup date [Sun Nov 15 15:18:30 EET 2015]; root of context hierarchy
 Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
 Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
 Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
@@ -270,14 +245,6 @@ Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerEx
 Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
 Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
 Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
-Rejected bean name 'testingController': no URL paths identified
-Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1': no URL paths identified
-Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1': no URL paths identified
-Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1': no URL paths identified
-Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#1': no URL paths identified
-Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1': no URL paths identified
-Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1': no URL paths identified
-Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1': no URL paths identified
 Rejected bean name 'applicationContext': no URL paths identified
 Rejected bean name 'dividendController': no URL paths identified
 Rejected bean name 'tradeController': no URL paths identified
@@ -303,104 +270,10 @@ Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.
 Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
 Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
 Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
-Creating shared instance of singleton bean 'testingController'
-Creating instance of bean 'testingController'
-Registered injected element on class [test.java.TestingController]: AutowiredFieldElement for private main.java.market.StockMarketUtils test.java.TestingController.stockMarketUtils
-Eagerly caching bean 'testingController' to allow for resolving potential circular references
-Processing injected element of bean 'testingController': AutowiredFieldElement for private main.java.market.StockMarketUtils test.java.TestingController.stockMarketUtils
-Creating shared instance of singleton bean 'stockMarketUtils'
-Creating instance of bean 'stockMarketUtils'
 Creating shared instance of singleton bean 'applicationContext'
 Creating instance of bean 'applicationContext'
 Eagerly caching bean 'applicationContext' to allow for resolving potential circular references
 Finished creating instance of bean 'applicationContext'
-Eagerly caching bean 'stockMarketUtils' to allow for resolving potential circular references
-Finished creating instance of bean 'stockMarketUtils'
-Autowiring by type from bean name 'testingController' to bean named 'stockMarketUtils'
-Finished creating instance of bean 'testingController'
-Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1'
-Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1'
-Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1' to allow for resolving potential circular references
-Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
-Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1'
-Looking for request mappings in application context: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
-Mapped "{[/addStock.htm/stock={stock}}&type={type}&lastDividend={lastDividend}&fixedDividend={fixedDividend}&parValue={parValue}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String test.java.TestingController.addStock(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
-Mapped "{[/functionalTests.htm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String test.java.TestingController.functionalTests(org.springframework.ui.Model)
-Mapped "{[/getDividend.htm/stock={stock}&price={price}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.controllers.DividendController.getDividend(java.lang.String,java.lang.String,org.springframework.ui.Model)
-Mapped "{[/getPERatio.htm/stock={stock}&price={price}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.controllers.DividendController.getPERatio(java.lang.String,java.lang.String,org.springframework.ui.Model)
-Mapped "{[/volumeWeightedStockPrice.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.volumeWeightedStockPrice(org.springframework.ui.Model)
-Mapped "{[/trades.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.trades(org.springframework.ui.Model)
-Mapped "{[/addTrade.htm/executionTimestamp={executionTimestamp}&numberOfShares={numberOfShares}&buyOrSell={buyOrSell}&tradePrice={tradePrice}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.addTrade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)
-Mapped "{[/calculateGeometricMeanOfAllIndices.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String main.java.TradeController.calculateGeometricMeanOfAllIndices(org.springframework.ui.Model)
-Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1'
-Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
-Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1'
-Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1'
-Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1' to allow for resolving potential circular references
-Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#989da1#1'
-Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
-Finished creating instance of bean '(inner bean)#989da1#1'
-Creating instance of bean '(inner bean)#2032e725#1'
-Finished creating instance of bean '(inner bean)#2032e725#1'
-Creating instance of bean '(inner bean)#441cc260#1'
-Finished creating instance of bean '(inner bean)#441cc260#1'
-Creating instance of bean '(inner bean)#66e889df#1'
-Finished creating instance of bean '(inner bean)#66e889df#1'
-Creating instance of bean '(inner bean)#773c0293#1'
-Finished creating instance of bean '(inner bean)#773c0293#1'
-Creating instance of bean '(inner bean)#3a022576#1'
-Finished creating instance of bean '(inner bean)#3a022576#1'
-Creating instance of bean '(inner bean)#31ddd4a4#1'
-Finished creating instance of bean '(inner bean)#31ddd4a4#1'
-Creating instance of bean '(inner bean)#22d1886d#1'
-Creating instance of bean '(inner bean)#1cbb3d3b#1'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#1cbb3d3b#1'
-Finished creating instance of bean '(inner bean)#1cbb3d3b#1'
-Finished creating instance of bean '(inner bean)#22d1886d#1'
-Creating instance of bean '(inner bean)#393881f0#1'
-Finished creating instance of bean '(inner bean)#393881f0#1'
-Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1'
-Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
-Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
-Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1'
-Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1'
-Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1' to allow for resolving potential circular references
-Returning cached instance of singleton bean 'mvcContentNegotiationManager'
-Creating instance of bean '(inner bean)#2032e725#2'
-Finished creating instance of bean '(inner bean)#2032e725#2'
-Creating instance of bean '(inner bean)#441cc260#2'
-Finished creating instance of bean '(inner bean)#441cc260#2'
-Creating instance of bean '(inner bean)#66e889df#2'
-Finished creating instance of bean '(inner bean)#66e889df#2'
-Creating instance of bean '(inner bean)#773c0293#2'
-Finished creating instance of bean '(inner bean)#773c0293#2'
-Creating instance of bean '(inner bean)#3a022576#2'
-Finished creating instance of bean '(inner bean)#3a022576#2'
-Creating instance of bean '(inner bean)#31ddd4a4#2'
-Finished creating instance of bean '(inner bean)#31ddd4a4#2'
-Creating instance of bean '(inner bean)#22d1886d#2'
-Creating instance of bean '(inner bean)#1cbb3d3b#2'
-Invoking afterPropertiesSet() on bean with name '(inner bean)#1cbb3d3b#2'
-Finished creating instance of bean '(inner bean)#1cbb3d3b#2'
-Finished creating instance of bean '(inner bean)#22d1886d#2'
-Creating instance of bean '(inner bean)#6ed06f69'
-Finished creating instance of bean '(inner bean)#6ed06f69'
-Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1'
-Looking for exception mappings: Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy
-Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1'
-Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1'
-Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1'
-Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1'
-Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1'
-Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1'
-Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1' to allow for resolving potential circular references
-Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1'
-Returning cached instance of singleton bean 'applicationContext'
 Creating shared instance of singleton bean 'dividendController'
 Creating instance of bean 'dividendController'
 Registered injected element on class [main.java.controllers.DividendController]: AutowiredFieldElement for private main.java.data.interpretors.DividendCalculatorFactory main.java.controllers.DividendController.dividendCalculatorFactory
@@ -414,7 +287,11 @@ Eagerly caching bean 'dividendCalculatorFactory' to allow for resolving potentia
 Finished creating instance of bean 'dividendCalculatorFactory'
 Autowiring by type from bean name 'dividendController' to bean named 'dividendCalculatorFactory'
 Processing injected element of bean 'dividendController': AutowiredFieldElement for private main.java.market.StockMarketUtils main.java.controllers.DividendController.stockMarketUtils
-Returning cached instance of singleton bean 'stockMarketUtils'
+Creating shared instance of singleton bean 'stockMarketUtils'
+Creating instance of bean 'stockMarketUtils'
+Returning cached instance of singleton bean 'applicationContext'
+Eagerly caching bean 'stockMarketUtils' to allow for resolving potential circular references
+Finished creating instance of bean 'stockMarketUtils'
 Autowiring by type from bean name 'dividendController' to bean named 'stockMarketUtils'
 Finished creating instance of bean 'dividendController'
 Creating shared instance of singleton bean 'tradeController'
@@ -429,7 +306,7 @@ Returning cached instance of singleton bean 'org.springframework.context.annotat
 Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
 Returning cached instance of singleton bean 'dividendCalculatorFactory'
 Returning cached instance of singleton bean 'stockMarketUtils'
-Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1a35993f]
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@58399d82]
 Returning cached instance of singleton bean 'lifecycleProcessor'
 Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
 Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
@@ -442,7 +319,7 @@ Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
 Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
 Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
 Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-Root WebApplicationContext: initialization completed in 4737 ms
+Root WebApplicationContext: initialization completed in 4611 ms
 Initializing servlet 'dispatcher'
 Adding [servletConfigInitParams] PropertySource with lowest search precedence
 Adding [servletContextInitParams] PropertySource with lowest search precedence
@@ -451,7 +328,7 @@ Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
 FrameworkServlet 'dispatcher': initialization started
-Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Sun Nov 15 14:56:25 EET 2015]; root of context hierarchy]
+Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Sun Nov 15 15:18:30 EET 2015]; root of context hierarchy]
 Searching for key 'spring.profiles.default' in [servletConfigInitParams]
 Searching for key 'spring.profiles.default' in [servletContextInitParams]
 Searching for key 'spring.profiles.default' in [jndiProperties]
@@ -474,7 +351,7 @@ Searching for key 'spring.profiles.default' in [systemEnvironment]
 Could not find key 'spring.profiles.default' in any property source. Returning [null]
 Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
 Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
-Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Nov 15 14:56:30 EET 2015]; parent: Root WebApplicationContext
+Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Nov 15 15:18:34 EET 2015]; parent: Root WebApplicationContext
 Adding [systemProperties] PropertySource with lowest search precedence
 Adding [systemEnvironment] PropertySource with lowest search precedence
 Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
@@ -485,15 +362,15 @@ Loaded schema mappings: {http://www.springframework.org/schema/aop/spring-aop-4.
 Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
 Loading bean definitions
 Loaded 2 bean definitions from location pattern [/WEB-INF/dispatcher-servlet.xml]
-Bean factory for WebApplicationContext for namespace 'dispatcher-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@3cd59ef5: defining beans [contentNegotiationManager,viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1b765a2c
-Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@1cc9cfb2]
-Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@3bead518]
-Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@46d9aec8]
-Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@7918c7f8]
-Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@289fdb08]
-Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@30814f43]
-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@7ce9e05a]
-Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3cd59ef5: defining beans [contentNegotiationManager,viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1b765a2c
+Bean factory for WebApplicationContext for namespace 'dispatcher-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@29a69a35: defining beans [contentNegotiationManager,viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@62e20a76
+Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@de18f63]
+Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@6345e7b9]
+Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@4e904fd5]
+Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@4cbf4f53]
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@54aca26f]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@35088e87]
+Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@59532566]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29a69a35: defining beans [contentNegotiationManager,viewResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@62e20a76
 Creating shared instance of singleton bean 'contentNegotiationManager'
 Creating instance of bean 'contentNegotiationManager'
 Eagerly caching bean 'contentNegotiationManager' to allow for resolving potential circular references
@@ -503,35 +380,30 @@ Creating shared instance of singleton bean 'viewResolver'
 Creating instance of bean 'viewResolver'
 Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
 Finished creating instance of bean 'viewResolver'
-Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@67440de6]
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@655523dd]
 Returning cached instance of singleton bean 'lifecycleProcessor'
 Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
 Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
 Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
-Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3c904f1e]
+Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@63fdffcd]
 Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
 Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
-Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@5109e8cf]
+Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@6e57b5e9]
 Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#1'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#1'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
 Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1'
-Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1'
 Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
 Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
-Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@31464a43]
+Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@e04ccf8]
 Returning cached instance of singleton bean 'viewResolver'
 Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
 Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
-Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@238acd0b]
+Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@66bacdbc]
 Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
 Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
 Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
@@ -543,139 +415,10 @@ Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
 Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
 Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
 Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
-FrameworkServlet 'dispatcher': initialization completed in 55 ms
+FrameworkServlet 'dispatcher': initialization completed in 50 ms
 Servlet 'dispatcher' configured successfully
 DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/functionalTests.htm]
 Looking up handler method for path /functionalTests.htm
-Returning handler method [public java.lang.String test.java.TestingController.functionalTests(org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'testingController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/functionalTests.htm] is: -1
-Invoking afterPropertiesSet() on bean with name 'functionalTests'
-Rendering view [org.springframework.web.servlet.view.JstlView: name 'functionalTests'; URL [/WEB-INF/jsp/functionalTests.jsp]] in DispatcherServlet with name 'dispatcher'
-Added model object 'message' of type [java.lang.String] to request in view with name 'functionalTests'
-Forwarding to resource [/WEB-INF/jsp/functionalTests.jsp] in InternalResourceView 'functionalTests'
-Successfully completed request
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=POP&price=2]
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=ALE&price=51]
-Looking up handler method for path /getDividend.htm/stock=ALE&price=51
-Looking up handler method for path /getDividend.htm/stock=POP&price=2
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=TEA&price=12]
-Looking up handler method for path /getDividend.htm/stock=TEA&price=12
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=GIN&price=143]
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getDividend(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=TEA&price=12] is: -1
-Looking up handler method for path /getDividend.htm/stock=GIN&price=143
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getDividend(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=POP&price=2]
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=JOE&price=75]
-Looking up handler method for path /getDividend.htm/stock=JOE&price=75
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getDividend(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=ALE&price=51] is: -1
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getDividend(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=JOE&price=75] is: -1
-Looking up handler method for path /getPERatio.htm/stock=POP&price=2
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=POP&price=2] is: -1
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getDividend(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getDividend.htm/stock=GIN&price=143] is: -1
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getPERatio(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=POP&price=2] is: -1
-Written [0.17333333333333334] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Written [0.013986013986013986] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Written [0.25] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Written [0.0] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Written [0.45098039215686275] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Written [4.0] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-Successfully completed request
-Successfully completed request
-Successfully completed request
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-Successfully completed request
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=TEA&price=12]
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1]
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=JOE&price=75]
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=GIN&price=143]
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=ALE&price=51]
-Looking up handler method for path /getPERatio.htm/stock=GIN&price=143
-Looking up handler method for path /getPERatio.htm/stock=JOE&price=75
-Looking up handler method for path /addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1
-Looking up handler method for path /getPERatio.htm/stock=TEA&price=12
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=sell&tradePrice=3.1]
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getPERatio(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getPERatio(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Looking up handler method for path /getPERatio.htm/stock=ALE&price=51
-Returning handler method [public java.lang.String main.java.TradeController.addTrade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getPERatio(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Looking up handler method for path /addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=sell&tradePrice=3.1
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=JOE&price=75] is: -1
-Returning cached instance of singleton bean 'dividendController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=TEA&price=12] is: -1
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=GIN&price=143] is: -1
-Returning handler method [public java.lang.String main.java.TradeController.addTrade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'tradeController'
-Returning handler method [public java.lang.String main.java.controllers.DividendController.getPERatio(java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'dividendController'
-Returning cached instance of singleton bean 'tradeController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1] is: -1
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=ALE&price=51] is: -1
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=sell&tradePrice=3.1] is: -1
-Written [Infinity] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Written [71.5] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-Written [2.217391304347826] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-Written [5.769230769230769] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-Successfully completed request
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=20&buyOrSell=sell&tradePrice=6.2]
-Looking up handler method for path /addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=20&buyOrSell=sell&tradePrice=6.2
-Returning handler method [public java.lang.String main.java.TradeController.addTrade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'tradeController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=20&buyOrSell=sell&tradePrice=6.2] is: -1
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-Successfully completed request
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1]
-Looking up handler method for path /addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1
-Returning handler method [public java.lang.String main.java.TradeController.addTrade(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'tradeController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1] is: -1
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Successfully completed request
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/calculateGeometricMeanOfAllIndices.htm]
-DispatcherServlet with name 'dispatcher' processing GET request for [/LiviuHomescu-SimpleStockMarket/volumeWeightedStockPrice.htm]
-Looking up handler method for path /calculateGeometricMeanOfAllIndices.htm
-Looking up handler method for path /volumeWeightedStockPrice.htm
-Returning handler method [public java.lang.String main.java.TradeController.calculateGeometricMeanOfAllIndices(org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'tradeController'
-Returning handler method [public java.lang.String main.java.TradeController.volumeWeightedStockPrice(org.springframework.ui.Model)]
-Returning cached instance of singleton bean 'tradeController'
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/calculateGeometricMeanOfAllIndices.htm] is: -1
-Last-Modified value for [/LiviuHomescu-SimpleStockMarket/volumeWeightedStockPrice.htm] is: -1
-Written [3.6865420565084355] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
-Written [4.34] as "text/html" using [org.springframework.http.converter.StringHttpMessageConverter@6d9bc02e]
-Successfully completed request
-Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+Did not find handler method for [/functionalTests.htm]
+No mapping found for HTTP request with URI [/LiviuHomescu-SimpleStockMarket/functionalTests.htm] in DispatcherServlet with name 'dispatcher'
 Successfully completed request

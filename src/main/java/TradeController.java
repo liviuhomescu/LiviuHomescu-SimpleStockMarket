@@ -1,7 +1,6 @@
 package main.java;
 
 import main.java.data.Trade;
-import main.java.data.TradeDisplay;
 import main.java.market.StockMarketUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -26,12 +25,6 @@ public class TradeController{
 
         stockMarketUtils.addTrade(new Trade(executionTimestamp, numberOfShares, buyOrSell, tradePrice));
         return null;
-    }
-
-    @RequestMapping(method= RequestMethod.GET, value="/trades.htm")
-    public String trades(Model model){
-        model.addAttribute("command", new TradeDisplay());
-        return "addTrade" ;
     }
 
     @RequestMapping(method= RequestMethod.GET, value="/volumeWeightedStockPrice.htm")

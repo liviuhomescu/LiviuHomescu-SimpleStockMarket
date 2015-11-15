@@ -1,0 +1,27 @@
+
+This is a Spring web project developed in Intellij 13 adn build with Gradle.
+
+As requested in the assignment pdf, all data is stored in memory.
+
+The list of trades and the map of stocks are both in "StockMarketUtils"
+
+For testing, I have created 2 Spring profiles, "production" and "test".
+
+Activating a profile is done by using the following VM option "-Dspring.profiles.active="production,test".
+
+An example link used to add a trade is "http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=20&buyOrSell=sell&tradePrice=6.2"
+
+Since it was not included in the requirements, there is no link for adding a stock. All stocks form the assigned homework asre staticly added.
+
+The testing link : "http://localhost:8080/LiviuHomescu-SimpleStockMarket/functionalTests.htm" should not be available if  "-Dspring.profiles.active="production" is used.
+
+The other type of tests ive created is the uni tests in folder "unittests".
+
+Unit tests are used for detecting logical errors such as when there are no trades or when values are wrongly sent.
+
+The testing link should be used to get users to approve the used formulas. This is a mor graphical way of showing users how the app will behave.
+
+Currently the app is ready for user acceptance(UAT), not production.
+
+
+
