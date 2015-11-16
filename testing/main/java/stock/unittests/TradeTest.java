@@ -12,14 +12,14 @@ public class TradeTest {
     @Test(expected=IllegalFieldValueException.class)
     public void throwsExceptionWhenTimestampDoesNotMatch(){
 
-        Trade trade = new Trade("03-04-2015:25:61", "buy", "256", "1.2");
+        Trade trade = new Trade("03-04-2015:25:61", "buy", "256", "1.2", "ALE");
 
     }
 
     @Test(expected=IllegalArgumentException.class)
     public void throwsExceptionWhenTimestampHasWrongFormat(){
 
-        Trade trade = new Trade("03-04-2015:25:61", "buy", "256", "1.2");
+        Trade trade = new Trade("03-04-2015:25:61", "buy", "256", "1.2", "ALE");
 
     }
 }

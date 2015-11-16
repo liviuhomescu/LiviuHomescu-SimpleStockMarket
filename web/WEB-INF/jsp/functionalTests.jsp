@@ -65,14 +65,14 @@ function addTests(){
     addTestRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=GIN&price=143","P/E Ratio Test for stock=GIN and price=143" ,"OK", "71.5", "We got an error", "PERario");
     addTestRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/getPERatio.htm/stock=JOE&price=75","P/E Ratio Test for stock=JOE and price=75" ,"OK", "5.769230769230769", "We got an error", "PERario");
 
-    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=sell&tradePrice=3.1");
-    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1");
-    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1");
-    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=20&buyOrSell=sell&tradePrice=6.2");
+    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=sell&tradePrice=3.1&symbol=POP");
+    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1&symbol=POP");
+    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=10&buyOrSell=buy&tradePrice=3.1&symbol=POP");
+    addRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/addTrade.htm/executionTimestamp=03-04-2016:04:30&numberOfShares=20&buyOrSell=sell&tradePrice=6.2&symbol=POP");
 
     setTimeout( function(){
             addTestRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/calculateGeometricMeanOfAllIndices.htm","Geometric mean for sell 10@3.1, buy 10@3.1, buy 10@3.1, buy 20@6.2 " ,"OK", "3.6865420565084355", "We got an error", "geometricMean");
-            addTestRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/volumeWeightedStockPrice.htm","VolumeWeightedStockPrice for sell 10@3.1, buy 10@3.1, buy 10@3.1, buy 20@6.2 " ,"OK", "4.34", "We got an error", "volumeWeightedStockPrice");
+            addTestRequest("http://localhost:8080/LiviuHomescu-SimpleStockMarket/volumeWeightedStockPrice.htm/symbol=POP","VolumeWeightedStockPrice for sell 10@3.1, buy 10@3.1, buy 10@3.1, buy 20@6.2 " ,"OK", "4.34", "We got an error", "volumeWeightedStockPrice");
             }, 5000);
 
 }

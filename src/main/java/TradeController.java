@@ -1,7 +1,7 @@
 package main.java;
 
 import main.java.data.Trade;
-import main.java.market.StockMarketUtils;
+import main.java.market.TradeStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,23 +17,24 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TradeController{
 
     @Autowired
-    private StockMarketUtils stockMarketUtils;
+    private TradeStore tradeStore;
 
-    @RequestMapping(method= RequestMethod.GET, value="/addTrade.htm/executionTimestamp={executionTimestamp}&numberOfShares={numberOfShares}&buyOrSell={buyOrSell}&tradePrice={tradePrice}")
+    @RequestMapping(method= RequestMethod.GET, value="/addTrade.htm/executionTimestamp={executionTimestamp}&numberOfShares={numberOfShares}&buyOrSell={buyOrSell}&tradePrice={tradePrice}&symbol={symbol}")
     public @ResponseBody String addTrade(@PathVariable String executionTimestamp, @PathVariable String numberOfShares,
-                                            @PathVariable String buyOrSell, @PathVariable String tradePrice, Model model){
+                                            @PathVariable String buyOrSell, @PathVariable String tradePrice,
+                                            @PathVariable String symbol, Model model){
 
-        stockMarketUtils.addTrade(new Trade(executionTimestamp, numberOfShares, buyOrSell, tradePrice));
+        tradeStore.addTrade(new Trade(executionTimestamp, numberOfShares, buyOrSell, tradePrice, symbol));
         return null;
     }
 
-    @RequestMapping(method= RequestMethod.GET, value="/volumeWeightedStockPrice.htm")
-    public @ResponseBody String volumeWeightedStockPrice(Model model){
-        return stockMarketUtils.calculateVolumeWeightedStockPrice();
+    @RequestMapping(method= RequestMethod.GET, value="/volumeWeightedStockPrice.htm/symbol={symbol}")
+    public @ResponseBody String volumeWeightedStockPrice(@PathVariable String symbol, Model model){
+        return tradeStore.calculateVolumeWeightedStockPrice(symbol);
     }
 
     @RequestMapping(method= RequestMethod.GET, value="/calculateGeometricMeanOfAllIndices.htm")
     public @ResponseBody String calculateGeometricMeanOfAllIndices(Model model){
-        return stockMarketUtils.calculateGeometricMeanOfAllIndices();
+        return tradeStore.calculateGeometricMeanOfAllIndices();
     }
 }

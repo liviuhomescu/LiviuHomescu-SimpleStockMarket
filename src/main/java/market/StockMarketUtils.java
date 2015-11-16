@@ -7,6 +7,7 @@ import org.joda.time.DateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by liviu on 11/10/2015.
@@ -33,44 +34,7 @@ public class StockMarketUtils {
        return (Stock) stockMarket.get(stockSymbol);
     }
 
-    public synchronized void addTrade(Trade trade){
-        stockMarketTrades.add(trade);
+    public Set<String> ListOfStocksSymbols(){
+        return stockMarket.keySet();
     }
-
-    public List<Trade> getTradesInThePast(int minutes){
-
-        List resultTrades = new ArrayList();
-        if (stockMarketTrades == null || stockMarketTrades.isEmpty()){
-            return resultTrades;
-        }
-        if (minutes <= 0){
-            return resultTrades;
-        }
-        for (Trade trade : stockMarketTrades){
-            if (!DateTime.now().minusMinutes(minutes).isAfter(trade.getExecutionTimestamp())){
-                resultTrades.add(trade);
-            }
-        }
-        return resultTrades;
-    }
-
-    public String calculateVolumeWeightedStockPrice(){
-        int sumOfShares = 0;
-        double wheightedSum = 0.0;
-        List<Trade> pastTrades = getTradesInThePast(15);
-        for (Trade trade : pastTrades) {
-            sumOfShares += trade.getNumberOfShares();
-            wheightedSum += trade.getNumberOfShares() * trade.getTradePrice();
-        }
-        return String.valueOf(wheightedSum / sumOfShares);
-    }
-
-    public String calculateGeometricMeanOfAllIndices(){
-        double product = 1.0;
-        for (Trade trade : stockMarketTrades){
-            product = product * trade.getTradePrice();
-        }
-        return String.valueOf(Math.pow(product, 1.0 / (double)stockMarketTrades.size()));
-    }
-
 }

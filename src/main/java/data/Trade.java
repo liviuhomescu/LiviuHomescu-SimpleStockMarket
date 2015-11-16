@@ -17,8 +17,10 @@ public class Trade {
     private Integer numberOfShares;
     private String buyOrSell;
     private Double tradePrice;
+    private String symbol;
 
-    public Trade(String executionTimestamp, String numberOfShares, String buyOrSell, String tradePrice) {
+    public Trade(String executionTimestamp, String numberOfShares, String buyOrSell, String tradePrice, String symbol) {
+        this.symbol = symbol;
         this.executionTimestamp = DateTime.parse(executionTimestamp, dateTimeFormatter);;
         this.numberOfShares = Integer.parseInt(numberOfShares);
         this.buyOrSell = buyOrSell;
@@ -56,5 +58,9 @@ public class Trade {
 
     public void setTradePrice(Double tradePrice) {
         this.tradePrice = tradePrice;
+    }
+
+    public String getSymbol() {
+        return symbol;
     }
 }
